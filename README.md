@@ -68,6 +68,7 @@ sudo python3 topology.py
 ```bash
 sudo wireshark # to capture packets
 ```
+### ON TERMINAL 2
 
 #### SCENARIO 1 - PING TEST
 ```bash
