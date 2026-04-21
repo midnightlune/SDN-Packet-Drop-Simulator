@@ -113,3 +113,41 @@ h1 ping -c 3 10.0.0.3       #still 100% loss
 
 Stop wireshark capture after this. Force kill controller and exit mininet on Terminal 2. 
 
+
+### OUTPUT SCREENSHOTS
+
+#### STARTING CONTROLLER
+
+![S1](screenshots/S1.png)
+
+#### STARTING TOPOLOGY
+
+![S2](screenshots/S2.png)
+
+#### CONTROLLER AFTER TOPOLOGY STARTED
+
+![S3](screenshots/S3.png)
+
+#### FIRST PING (DROPPED)
+
+![S4](screenshots/S4.png)
+
+#### SECOND PING (ALLOWED)
+
+![S5](screenshots/S5.png)
+
+#### TCP (ALLOWED)
+
+![S6](screenshots/S6.png)
+
+#### UDP (BLOCKED)
+
+![S7](screenshots/S7.png)
+
+#### REGRESSION TEST - FLOW TABLE
+
+![S8](screenshots/S8.png)
+
+#### DROP RULES RETAINED FOR PING
+
+![S9](screenshots/S9.png)
